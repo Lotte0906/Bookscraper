@@ -1,0 +1,17 @@
+# conda env create -f environment.yml
+name: exam-deep
+channels:
+#     - defaults
+#    - conda-forge
+dependencies:
+    - python=3.8.*
+    - pip
+    - jupyter
+    - pandas
+    - numpy
+    - matplotlib
+    - pip:
+#        - interpret 
+#        - dice_ml
+#        - shap==0.41.*
+        
